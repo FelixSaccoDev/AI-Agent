@@ -1,0 +1,12 @@
+sendgrid
+llama-index 
+llama-index-readers-mongodb
+pymongo
+pandas
+matplotlib
+numpy==1.26.4
+openai
+python-dotenv
+uuid
+pmdarima
+pinecone-client
