@@ -4,6 +4,8 @@
 
 The **Customer Support AI Agent** is a Python-based solution designed to monitor product prices on an e-commerce site. By utilizing an ARIMA model, it predicts future prices and sends notifications to customers when the price of a product is expected to drop in the next 10 days. This proactive approach helps customers make informed purchasing decisions and enhances their shopping experience.  
 
+![Workflow Diagram](https://github.com/BigData5911/customer-support-ai-agent/blob/main/customer-ai-agent-workflow.png)  
+
 ## Features  
 
 - Fetches a list of products from an e-commerce site  
