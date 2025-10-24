@@ -1,53 +1,66 @@
-# Customer Support AI Agent  
+# 🧠 Customer Support AI Agent
 
-## Overview  
+## 📘 Overview
 
-The **Customer Support AI Agent** is a Python-based solution designed to monitor product prices on an e-commerce site. By utilizing an ARIMA model, it predicts future prices and sends notifications to customers when the price of a product is expected to drop in the next 10 days. This proactive approach helps customers make informed purchasing decisions and enhances their shopping experience.  
+**Customer Support AI Agent** is a Python-based intelligent system that monitors product prices on e-commerce platforms and predicts future price trends using an **ARIMA time series model**.
 
-![Workflow Diagram](https://github.com/BigData5911/customer-support-ai-agent/blob/main/customer-ai-agent-workflow.png)  
+When a price drop is forecasted within the next 10 days, the system automatically notifies users via email — helping customers make data-driven purchasing decisions and improving the overall shopping experience.
 
-## Features  
+![Workflow Diagram](https://github.com/BigData5911/customer-support-ai-agent/blob/main/customer-ai-agent-workflow.png)
 
-- Fetches a list of products from an e-commerce site  
-- Implements ARIMA model for price prediction  
-- Sends email notifications to users when product prices are predicted to be lower  
-- User-friendly setup and configuration  
+---
 
-## Requirements  
+## 🚀 Key Features
 
-- Python 3.6 or higher  
-- Required libraries (install using `pip install -r requirements.txt`):  
-  - pandas  
-  - numpy  
-  - statsmodels  
-  - requests  
-  - smtplib  
-  - email  
+* **Automated Product Monitoring:** Continuously fetches product data from supported e-commerce sites.
+* **Predictive Price Analytics:** Utilizes ARIMA forecasting to estimate short-term price fluctuations.
+* **Smart Notifications:** Sends email alerts when a product’s price is expected to decrease.
+* **Easy Configuration:** Simple setup for custom thresholds, data sources, and email settings.
 
-## Installation  
+---
 
-1. Clone the repository:  
+## ⚙️ Requirements
 
-   ```bash  
-   git clone https://github.com/bigdata5911/customer-support-ai-agent.git  
-   cd customer-support-ai-agent
-2. Install the required libraries:
+* **Python:** 3.6 or higher
+* **Dependencies:**
+  Install required libraries using:
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+  Required packages include:
+
+  * `pandas`
+  * `numpy`
+  * `statsmodels`
+  * `requests`
+  * `smtplib`
+  * `email`
+
+---
+
+## 🧩 Installation & Setup
+
+1. **Clone the repository:**
+
    ```bash
-   pip install -r requirements.txt  
+   git clone https://github.com/bigdata5911/customer-support-ai-agent.git
+   cd customer-support-ai-agent
    ```
-3. Set up your email configuration in config.py:
-    ```python
-    EMAIL_ADDRESS = 'your_email@example.com'
-    ```
 
-## Contributing
-Contributions are welcome! If you have suggestions for improvements or encounter issues, please create an issue or submit a pull request.
+2. **Install dependencies:**
 
-## Contact
-For questions or feedback, please reach out via GitHub issues or email at worker.opentext@gmail.com.
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+3. **Configure email settings:**
+   Update your credentials in `config.py`:
 
-### Customization Tips  
-- Make sure to replace `yourusername`, `your_email@example.com`, and actual script names with your specific information.  
-- Adjust the sections based on the actual structure and features of your project.   
-- You might want to include screenshots or examples of how the system works for better clarity.
+   ```python
+   EMAIL_ADDRESS = 'your_email@example.com'
+   EMAIL_PASSWORD = 'your_password'
+   ```
+
+---
