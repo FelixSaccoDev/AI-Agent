@@ -1,4 +1,4 @@
-# 🧠 Customer Support AI Agent
+# 🧠 Support AI Agent
 
 ## 📘 Overview
 
