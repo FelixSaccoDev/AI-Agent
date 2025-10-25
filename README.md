@@ -2,7 +2,7 @@
 
 ## 📘 Overview
 
-**Customer Support AI Agent** is a Python-based intelligent system that monitors product prices on e-commerce platforms and predicts future price trends using an **ARIMA time series model**.
+**Support AI Agent** is a Python-based intelligent system that monitors product prices on e-commerce platforms and predicts future price trends using an **ARIMA time series model**.
 
 When a price drop is forecasted within the next 10 days, the system automatically notifies users via email — helping customers make data-driven purchasing decisions and improving the overall shopping experience.
 
